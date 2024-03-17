@@ -9,7 +9,7 @@ This is a simple React application that utilizes React Router for navigation bet
 # To install and run this project locally
 
 -Clone this repository to your local machine:
-git clone https://github.com/LB45000/SPA-Portfolio
+git clone https://github.com/LB45000/SPA-Portfolio-Final/tree/main
 -Install dependencies using npm install
 -run it using npm start
 Open your browser and navigate to http://localhost:3000 to view the app.
