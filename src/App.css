@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #00f;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #0ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #005fff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #003f7f;
+}
+
+.projects-section, .about-section, div[style] {
+  text-align: center;
+  padding: 20px;
+}
+
+a[href^="https://"], a[style] {
+  color: #00f;
+  transition: color 0.3s ease-in-out;
+}
+
+a[href^="https://"]:hover, a[style]:hover {
+  color: #0ff;
+}
