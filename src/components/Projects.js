@@ -15,22 +15,28 @@ const Projects = () => {
       <div className="project">
         <h3>Classroom Average Calculator</h3>
         <img src={classroomAverageImg} alt="Classroom Average Calculator" className="project-img" />
-        <p>This is a react project that allows you to calculate the average grades of students. It provides a user-friendly interface for inputting scores and displays the calculated average promptly.It also allows you to add and delete students.</p>
-        <a href="https://github.com/LB45000/ClassRoomAverageReact" target="_blank" rel="noopener noreferrer">View Project</a>
+        <p>This is a react project that allows you to calculate the average grades of students. It provides a user-friendly interface for inputting scores and displays the calculated average promptly. It also allows you to add and delete students.</p>
+        <a href="https://github.com/LB45000/ClassRoomAverageReact" target="_blank" rel="noopener noreferrer">View Project Github Repo</a>
+        <br/>
+        <a href="https://classroomaverage.netlify.app/" target="_blank" rel="noopener noreferrer">View Project Website</a>
       </div>
 
       <div className="project">
         <h3>Meme Generator</h3>
         <img src={memeGeneratorImg} alt="Meme Generator" className="project-img" />
         <p>A fun and interactive web application that generates memes. It uses a meme api and it is also a react project.</p>
-        <a href="https://github.com/LB45000/Meme-Generator" target="_blank" rel="noopener noreferrer">View Project</a>
+        <a href="https://github.com/LB45000/Meme-Generator" target="_blank" rel="noopener noreferrer">View Project Github Repo</a>
+        <br/>
+        <a href="https://memegeneratorapiapp.netlify.app/" target="_blank" rel="noopener noreferrer">View the project website</a>
       </div>
 
       <div className="project">
         <h3>Task Tracker</h3>
         <img src={taskTrackerImg} alt="Task Tracker" className="project-img" />
         <p>An efficient task management tool to help users organize their daily tasks. It features task addition, editing, and deletion. It is also a react app.</p>
-        <a href="https://github.com/LB45000/TaskTracker" target="_blank" rel="noopener noreferrer">View Project</a>
+        <a href="https://github.com/LB45000/TaskTracker" target="_blank" rel="noopener noreferrer">View Project Github Repo</a>
+        <br/>
+        <a href="https://tasktrackerappreact.netlify.app/" target="_blank" rel="noopener noreferrer">View Project Website</a>
       </div>
     </div>
   );
