@@ -79,3 +79,14 @@ a[href^="https://"], a[style] {
 a[href^="https://"]:hover, a[style]:hover {
   color: #0ff;
 }
+
+.project-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
