@@ -50,7 +50,7 @@ const About = () => {
         <img src={Vite} alt="Vite" style={{ maxWidth: '100%', height: 'auto', width: '150px' }} />
         <img src={Databases} alt="Databases" style={{ maxWidth: '100%', height: 'auto', width: '150px' }} />
       </div>
-      <p>To learn more about me, check out my <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+      <p>To learn more about me, check out my <a href="https://www.linkedin.com/in/luis-bravo-075373177/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
     </div>
   );
 };
