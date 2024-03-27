@@ -3,7 +3,7 @@ import contactMeImage from './Assets/contactme.jpeg';
 
 function Contact() {
   
-  const emailAddress = "";
+  const emailAddress = "l7476767@gmail.com";
 
   return (
     <div>
@@ -15,6 +15,14 @@ function Contact() {
 
       <div>
         <img src={contactMeImage} alt="Contact Me" />
+        <div style={{marginTop: '10px'}}>
+          <a href="https://www.linkedin.com/in/luis-bravo-075373177/" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             style={{textDecoration: 'none'}}>
+            Connect with me on LinkedIn
+          </a>
+        </div>
       </div>
     </div>
   );
